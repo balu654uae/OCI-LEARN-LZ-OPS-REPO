@@ -11,7 +11,7 @@ compartments_configuration:
       name: cmp-network
       description: oci-learn-lz Shared Network Compartment
     CMP-CHANNELS-KEY:
-      name: cmp-channels
+      name: cmp-bala
       description: oci-learn-lz Channels Domain dedicated Compartment
       children:
         CMP-CHANNELS-NETWORK-KEY:
