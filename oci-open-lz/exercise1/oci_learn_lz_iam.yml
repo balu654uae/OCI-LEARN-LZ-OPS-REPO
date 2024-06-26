@@ -15,11 +15,11 @@ compartments_configuration:
       description: oci-learn-lz Channels Domain dedicated Compartment
       children:
         CMP-CHANNELS-NETWORK-KEY:
-          name: cmp-channels-network
+          name: cmp-bala-network
           description: oci-learn-lz Channels domain shared networking compartment
             within the domain
         CMP-CHANNELS-NONPROD-KEY:
-          name: cmp-channels-nonprod
+          name: cmp-bala-nonprod
           description: oci-learn-lz Channels domain for non-prod environment compartment
 groups_configuration:
   groups: {}
