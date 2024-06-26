@@ -20,21 +20,7 @@ compartments_configuration:
             within the domain
         CMP-CHANNELS-NONPROD-KEY:
           name: cmp-bala-nonprod
-          description: oci-learn-lz Channels domain for non-prod environment compartment
-    CMP-SECURITY-KEY:
-      name: cmp-security
-      description: oci-learn-lz Shared security Compartment
-    CMP-CORE-KEY:
-      name: cmp-core
-      description: oci-learn-lz core Domain dedicated Compartment
-      children:
-        CMP-CORE-NETWORK-KEY:
-          name: cmp-core-network
-          description: oci-learn-lz core domain shared networking compartment
-            within the domain
-        CMP-CORE-NONPROD-KEY:
-          name: cmp-core-nonprod
-          description: oci-learn-lz core domain for non-prod environment compartment          
+          description: oci-learn-lz Channels domain for non-prod environment compartment          
 groups_configuration:
   groups: {}
 dynamic_groups_configuration:
