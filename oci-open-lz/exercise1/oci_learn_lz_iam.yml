@@ -8,7 +8,7 @@ compartments_configuration:
   enable_delete: true
   compartments:
     CMP-NETWORK-KEY:
-      name: cmp-network
+      name: aa-cmp-network
       description: oci-learn-lz Shared Network Compartment
     CMP-CHANNELS-KEY:
       name: cmp-bala
